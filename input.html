@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>input要素の確認</title>
+    <meta name="description" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="container">
+        <h1>input要素のtypeで異なるソフトウェアキーボード</h1>
+        <form action="example">
+            <div class="mb-3">
+                <label for="inputtext" class="form-label">text</label>
+                <input type="text" class="form-control" id="inputtext" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputtel" class="form-label">tel</label>
+                <input type="tel" class="form-control" id="inputtel" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputemail" class="form-label">email</label>
+                <input type="email" class="form-control" id="inputemail" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputurl" class="form-label">url</label>
+                <input type="url" class="form-control" id="inputurl" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputsearch" class="form-label">search</label>
+                <input type="search" class="form-control" id="inputsearch" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputpassword" class="form-label">password</label>
+                <input type="password" class="form-control" id="inputpassword" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputdate" class="form-label">date</label>
+                <input type="date" class="form-control" id="inputdate" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputnumber" class="form-label">number</label>
+                <input type="number" class="form-control" id="inputnumber" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputrange" class="form-label">range</label>
+                <input type="range" max=10 min=0 class="form-control" id="inputrange" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="inputcolor" class="form-label">color</label>
+                <input type="color" class="form-control" id="inputcolor" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="textarea" class="form-label">textarea</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
